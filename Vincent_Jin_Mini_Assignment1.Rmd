@@ -1,0 +1,86 @@
+---
+title: "Vincent_Jin_Mini_Assignment1"
+author: "Vincent Jin"
+date: "2023-03-31"
+output: pdf_document
+---
+
+# Mini Assignment 1
+## Vincent Jin
+
+# ============================================================ 
+# 	Mini-assignment # 1
+# ============================================================ 
+# *** for each of the following questions, type “done” if you achieved it ***
+
+# install R on your PC/Mac
+
+## Done
+
+# install RStudio on your PC/Mac
+
+## Done
+
+# install the following package: data.table
+
+``` {r}
+# install.packages("data.table")
+```
+
+## Done
+
+# call the data.table library
+
+``` {r}
+library(data.table)
+```
+
+# install the following package: benchmarkme (it may take some time as it will install other packages)
+
+``` {r}
+# install.packages("benchmarkme")
+```
+
+## Done
+
+# *** if you get an error, simply report the error (specially for Mac users) ***
+
+## No error encountered
+
+# call the benchmarkme library
+
+``` {r}
+library(benchmarkme)
+```
+
+# *** for each of the following questions, type the results after the question ***
+# run "version" command in the console and provide the result
+
+``` {r}
+version
+```
+
+# run "memory.limit()" command in the console and provide the result
+
+``` {r}
+memory.limit()
+```
+
+# run "get_cpu()" command in the console and provide the result
+
+``` {r}
+get_cpu()
+```
+
+# run "data(sample_results)" command (no results will be shown in the console)
+
+``` {r}
+data("sample_results")
+```
+
+# run "plot(sample_results, blas_optimize = NULL)" command -- provide the ranks provided by R (usually 3 numbers printed in the console; you can ignore the plots!)
+
+``` {r}
+plot(sample_results, blas_optimize = NULL)
+```
+
